@@ -20,14 +20,17 @@ B = #Dale un valor a B
 C = #Dale un valor a C
 ```
 
-# Chart Project
+# App Project
 
 Para correr el programa debes seguir las siguientes instrucciones:
 
 ```sh
+git clone
 cd app
+source env/bin/activate
+pip3 install -r requirements.txt
 Python3 main.py
-
 Type_country = #Escribe el pais
 ```
 Las imagenes de los graficos generados estaran en la carpeta ./app/imgs
+
